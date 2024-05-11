@@ -49,11 +49,11 @@ void print_stack(LinkedStackType* s)
 		printf("n:%d, from:%c, via=%c , destination=%c -> ", p->data.n, p->data.from, p->data.via, p->data.destination);
 	printf("NULL\n");
 }
-// »èÁ¦ ÇÔ¼ö
+
 void pop(LinkedStackType* hanoi)
 {
 	if (is_empty(hanoi)) {
-		fprintf(stderr, "½ºÅÃÀÌ ºñ¾îÀÖÀ½\n");
+		fprintf(stderr, "ìŠ¤íƒì´ ë¹„ì–´ìˆìŒ\n");
 		exit(1);
 	}
 	else {
