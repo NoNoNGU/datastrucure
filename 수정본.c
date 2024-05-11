@@ -74,13 +74,13 @@ int main(void)
 	push(&s, 1, 'A', 'B', 'C'); print_stack(&s);
 	pop(&s); print_stack(&s);
 	push(&s, 1, 'C', 'A', 'B'); print_stack(&s);
-	pop(&s); print_stack(&s);
+	pop(&s); 
 	pop(&s); print_stack(&s);
 	push(&s, 2, 'B', 'A', 'C'); print_stack(&s);
 	push(&s, 1, 'B', 'C', 'A'); print_stack(&s);
 	pop(&s); print_stack(&s);
 	push(&s, 1, 'A', 'B', 'C'); print_stack(&s);
-	pop(&s); print_stack(&s);
+	pop(&s); 
 	pop(&s); print_stack(&s);
 	return 0;
 }
